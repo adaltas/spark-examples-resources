@@ -19,3 +19,5 @@ cd spark-examples-resources
   scripts_countTrip/query_4executors.py \
   <Path_to_your_HDFS_Or_Local_file_>
 ```
+
+Lastly, one can compare the stages duration of the final query written in Scala and Python in the folder `scala-maven-jar`. To be able to run Scala application, you will have to run `mvn package assembly:single` at the root of the Maven project - which is `~/spark-examples-resources/cala-maven-jar/maven/`.
