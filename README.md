@@ -16,7 +16,7 @@ cd spark-examples-resources
 # launch the application of your choice, for example: 
 <SPARK-PATH>/bin/spark-submit --master yarn \
   --deploy-mode cluster \
-  scripts_countTrip/query_4executors.py \
+  scripts/scripts_countTrip/query_4executors.py \
   <Path_to_your_HDFS_Or_Local_file_>
 ```
 
